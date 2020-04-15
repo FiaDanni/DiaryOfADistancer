@@ -1,0 +1,25 @@
+
+h1{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 100px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.cont{
+    background-color: #DCDCDC;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+h5 {
+    font-size: 49px;
+    color:black;
+}
+
+.car{
+    font-size: 25px;
+    color: black;
+}
+
