@@ -16,31 +16,33 @@
    include 'header.php';
    ?>
   
-           
-  <div class="card-deck">
+        
+  <div class="card-deck" style="width:100%; padding-right: 10%; padding-left: 10%;" >
       
-  <div class="card">
-    <img class="card-img-top" src="images/nflix.png"  height="200" alt="Card image cap">
+  <div class="card" > 
+        
+    <img class="card-img-top" src="images/nflix.png" height="200"  alt="Card image cap">
     <div class="card-body">
-    <h6 class="card-title">Netflix Top 10</h5>
+    <h6 class="card-title">Netflix Top 10</h6>
     <p class="card-text">My favourite crime dramas of the moment are as follows.</p>
     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
   </div>
   </div>
+  
       
   <div class="card">
-    <img class="card-img-top" src="images/boardgames.jpg" height="200" alt="Card image cap">
+    <img class="card-img-top" src="images/prime.jpg" height="200" alt="Card image cap">
     <div class="card-body">
-    <h6 class="card-title">The Ultimate Old-School Games</h5>
+    <h6 class="card-title">Amazon Prime</h6>
     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
   </div>
   </div>
       
   <div class="card">
-    <img class="card-img-top" src="images/books.jpg"  height="200" alt="Card image cap">
+    <img class="card-img-top" src="images/sky.jpg" height="200"  alt="Card image cap">
     <div class="card-body">
-    <h6 class="card-title">Books to take you somewhere</h6>
+    <h6 class="card-title">SKY</h6>
     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
   </div>
@@ -53,30 +55,30 @@
         
         
         
-  <div class="card-deck">
+  <div class="card-deck" style= "width:100%; padding-left: 10%; padding-right: 10%;">
       
-  <div class="card">
-    <img class="card-img-top" src="images/secret .jpg"   height="200" alt="Card image cap">
+      <div class="card">
+    <img class="card-img-top" src="images/disney.jpg"  height="200"  alt="Card image cap">
     <div class="card-body">
-    <h6 class="card-title">Secret Cinema at Home</h5>
+    <h6 class="card-title">Disney</h5>
     <p class="card-text">New releases at Home</p>
     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
       
-  <div class="card">
-    <img class="card-img-top" src="images/spotify.jpg"  height="200" alt="Card image cap">
+      <div class="card">
+    <img class="card-img-top" src="images/podcasts.jpg" height="200"  alt="Card image cap">
     <div class="card-body">
-    <h6 class="card-title">Isolation Playlists</h5>
+    <h6 class="card-title">Podcasts</h5>
     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
       
   <div class="card">
-    <img class="card-img-top" src="images/games.jpg"  height="200" alt="Card image cap">
+    <img class="card-img-top" src="images/audiobooks.png" height="200" alt="Card image cap">
     <div class="card-body">
-    <h6 class="card-title">Gaming</h6>
+    <h6 class="card-title">Audio Books</h6>
     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
    </div>
