@@ -69,32 +69,35 @@
     <br>
     <br>
         
-  <div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="images/netflix.jpg" height="200" alt="Card image cap">
+          
+        
+  <div class="card-deck" style= "width:100%; padding-left: 10%; padding-right: 10%;">
+      
+      <div class="card">
+    <img class="card-img-top" src="images/disney.jpg"  height="200"  alt="Card image cap">
     <div class="card-body">
-      <h6 class="card-title">Netflix Crime Dramas</h5>
-      <p class="card-text">My favourite crime dramas of the moment are as follows.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <h6 class="card-title">Disney</h5>
+    <p class="card-text">New releases at Home</p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+      
+      <div class="card">
+    <img class="card-img-top" src="images/podcasts.jpg" height="200"  alt="Card image cap">
+    <div class="card-body">
+    <h6 class="card-title">Podcasts</h5>
+    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
       
   <div class="card">
-    <img class="card-img-top" src="images/homejoe.jpg"  height="200" alt="Card image cap">
+    <img class="card-img-top" src="images/audiobooks.png" height="200" alt="Card image cap">
     <div class="card-body">
-      <h6 class="card-title">My top 3 at home workouts</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-      
-  <div class="card">
-    <img class="card-img-top" src="images/workout.jpg"  height="200" alt="Card image cap">
-    <div class="card-body">
-      <h6 class="card-title">Meditation Apps</h6>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
+    <h6 class="card-title">Audio Books</h6>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+   </div>
   </div>
       
 </div>     
