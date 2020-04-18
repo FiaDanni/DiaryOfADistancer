@@ -7,7 +7,8 @@ if ($action == 'update') {
     //require to update post model
 }
 
-else {
+if ($action == 'updatePost') {
+    echo "post to be updated";
+} else {
     //require to delete post model
 }
-
