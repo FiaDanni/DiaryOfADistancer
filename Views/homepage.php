@@ -1,29 +1,8 @@
-
-<!DOCTYPE html>
-
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Diary of a Distancer.</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="diaryofad.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
-    </head>
-    
-    <body> 
-        
-    <?php
-    include 'header.php';
-    ?>
+<?php
+include 'header.php';
+?>
          
-        
-        
-        
- 
-        
-        
+           
     <div class="cont" align="center">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -71,14 +50,14 @@
         
           
         
-  <div class="card-deck" style= "width:100%; padding-left: 10%; padding-right: 10%;">
+   <div class="card-deck" style= "width:100%; padding-left: 10%; padding-right: 10%;">
       
       <div class="card">
     <img class="card-img-top" src="images/disney.jpg"  height="200"  alt="Card image cap">
     <div class="card-body">
     <h6 class="card-title">Disney</h5>
-    <p class="card-text">New releases at Home</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <p class="card-text">New releases at Home. Here are the best picks for the day. </p>
+    <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
     </div>
   </div>
       
@@ -87,7 +66,7 @@
     <div class="card-body">
     <h6 class="card-title">Podcasts</h5>
     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
     </div>
   </div>
       
@@ -95,18 +74,13 @@
     <img class="card-img-top" src="images/audiobooks.png" height="200" alt="Card image cap">
     <div class="card-body">
     <h6 class="card-title">Audio Books</h6>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <p class="card-text"> This card has even longer content than the first to show that equal height action.</p>
+    <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
    </div>
   </div>
       
-</div>     
-        
-        
-        
-        
-        
-        
+</div>  
+              
         
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

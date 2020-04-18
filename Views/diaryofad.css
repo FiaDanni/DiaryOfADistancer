@@ -1,73 +1,119 @@
-h1{
-    font-size: 90px;
-    text-align: center;
-    font-family: 'Amatic SC', cursive;
-    padding-top: 40px;
+#container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
 }
 
-nav {
-    text-align: center;
+
+.section1 {
+  background-image: url(images/bg1.jpg);  
+  height: 500px; 
+  background-position:center; 
+  background-repeat:no-repeat; 
+  background-size:cover; 
 }
 
-.search-container {
-    position:absolute;
-    top:0;
-    right:0;
+.sec1box {
+    background-color: white;
+    width: 700px;
+    padding-top: 200px 200px;
+    margin-left: 60px;
+    
 }
 
-a:link{
-    color:black;
-    text-decoration: none;
-}
-
-a:hover{
-    font-weight: bold;
-}
-
-header{
-    margin-bottom: 100px;
-    padding-bottom: 60px;
-}
-
-.flex, html, body, section {
-  height: auto;
-}
-
-.flex, body {
-  color: black;
-  font-family: sans-serif;
-  font-size: 0.9rem;
-  line-height: 150%;
-  text-align: center;
+.sec2box {
+  background-color: white;
+  width: 700px;
+  padding-top: 200px 200px;
+  margin-left: 360px;
   
 }
 
-.flex, div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.sec3box {
+  
+  margin-top: 360px;
+  
 }
 
-.flex, h2 {
-  font-size: 1.25rem;
-  margin: 0 0 0.75rem 0;
-}
+  * {
+    box-sizing: border-box;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column1{
+    flex: 33%;
+    padding: 5px;
+    margin-left: 60px;
+    
+  }
 
-/* Pattern styles */
-.flex, .container {
-  display: flex;
-}
+  .column2{
+    flex: 33%;
+    padding: 5px;
+    margin-right: 60px;
+  }
 
-.flex, .left-half {
-  background-color: white;
-  flex: 1;
-  padding: 1rem;
-}
+  .column3{
+    flex: 33%;
+    padding: 5px;
+    margin-left: 60px;
+    margin-top: 140px;
+  }
 
-.flex, .right-half {
-  background-color: white;
-  flex: 1;
-  padding: 1rem;
-}
+  .column4{
+    flex: 33%;
+    padding: 5px;
+    margin-right: 60px;
+  }
+
+  .col-3 {width: 25%;}
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    border-radius: 80px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    background-color: #455c64;
+    color: wheat;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+  #footer {
+    height: 140px;
+  position: absolute;
+   bottom: 0;
+   width: 100%;
+   background-color: thistle;
+  }
+
+  /* Contact Page */
+  section {
+    margin-left: 250px;
+  }
+
+  .h1-responsive font-weight-bold my-4 {
+    text-align: center;
+  }
+
+ 
+ 
+
+
 
 

@@ -1,15 +1,15 @@
 <?php
 include 'header.php';
-   ?>
+?>
   
         
   <div class="card-deck" style="width:100%; padding-right: 10%; padding-left: 10%;" >
       
   <div class="card" > 
         
-    <img class="card-img-top" src="images/nflix.png" height="200"  alt="Card image cap">
+    <img class="card-img-top" src="images/spotify.png" height="200"  alt="Card image cap">
     <div class="card-body">
-    <h6 class="card-title" a href="hompeage.php class="btn btn-primary stretched-link">Netflix Top 10</h6>
+    <h6 class="card-title" a href="hompeage.php class="btn btn-primary stretched-link">Spotify</h6>
     <p class="card-text">My favourite crime dramas of the moment are as follows.</p>
     <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
   </div>
@@ -17,18 +17,18 @@ include 'header.php';
   
       
   <div class="card">
-    <img class="card-img-top" src="images/prime.jpg" height="200" alt="Card image cap">
+    <img class="card-img-top" src="images/apple.jpg" height="200" alt="Card image cap">
     <div class="card-body">
-    <h6 class="card-title">Amazon Prime</h6>
+    <h6 class="card-title">Apple Music</h6>
     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
    <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
   </div>
   </div>
       
   <div class="card">
-    <img class="card-img-top" src="images/sky.jpg" height="200"  alt="Card image cap">
+    <img class="card-img-top" src="images/tidal.jpg" height="200"  alt="Card image cap">
     <div class="card-body">
-    <h6 class="card-title">SKY</h6>
+    <h6 class="card-title">Tidal</h6>
     <p class="card-text">. This card has even longer content than the first to show that equal height action.</p>
     <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
   </div>
@@ -44,7 +44,7 @@ include 'header.php';
   <div class="card-deck" style= "width:100%; padding-left: 10%; padding-right: 10%;">
       
       <div class="card">
-    <img class="card-img-top" src="images/disney.jpg"  height="200"  alt="Card image cap">
+    <img class="card-img-top" src="images/tunein.jpg"  height="200"  alt="Card image cap">
     <div class="card-body">
     <h6 class="card-title">Disney</h5>
     <p class="card-text">New releases at Home</p>
@@ -53,7 +53,7 @@ include 'header.php';
   </div>
       
       <div class="card">
-    <img class="card-img-top" src="images/podcasts.jpg" height="200"  alt="Card image cap">
+    <img class="card-img-top" src="images/youtubemusic.jpg" height="200"  alt="Card image cap">
     <div class="card-body">
     <h6 class="card-title">Podcasts</h5>
     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -62,7 +62,7 @@ include 'header.php';
   </div>
       
   <div class="card">
-    <img class="card-img-top" src="images/audiobooks.png" height="200" alt="Card image cap">
+    <img class="card-img-top" src="images/amazonmusic.png" height="200" alt="Card image cap">
     <div class="card-body">
     <h6 class="card-title">Audio Books</h6>
     <p class="card-text"> This card has even longer content than the first to show that equal height action.</p>
@@ -72,10 +72,10 @@ include 'header.php';
       
 </div>  
 
-     
+      
         
  
-  
+ 
  <br>
  
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
