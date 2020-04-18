@@ -18,10 +18,10 @@ include 'header.php';
         <h3>Update or Delete Blog Post</h3>
     </div>
 
-    <form>
+    <form action="../Controllers/postController.php" method="post">
         <div class="form-group" style='margin-top: 1%; margin-left: 5%;margin-right: 5%'>
             <h5 for="selectexistingblog">Select Existing Blog</h5>
-            <select class="form-control" id="blogcategoryselected" size="8">
+            <select class="form-control" id="blogcategoryselected" size="8" name="PostID">
                 <?php
                 require_once '../Model/dbconfig.php';
                 try {
@@ -45,8 +45,8 @@ include 'header.php';
 
 
         <div style='margin-left: 25%; margin-right: 25%; margin-bottom: 5%'>
-            <button type="submit" class="btn btn-primary" style='margin:1px'>Update</button>
-            <button type="submit" class="btn btn-primary" style='margin: 1px'>Delete</button>
+            <button type="submit" class="btn btn-primary" style='margin:1px' name="action" value="update">Update</button>
+            <button type="submit" class="btn btn-primary" style='margin: 1px' name="action" value="delete">Delete</button>
         </div>
     </form>
 
