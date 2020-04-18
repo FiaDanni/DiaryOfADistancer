@@ -11,7 +11,7 @@ include 'header.php';
     <div class="card-body">
     <h6 class="card-title" a href="hompeage.php class="btn btn-primary stretched-link">Banana Bread</h6>
     <p class="card-text">My favourite crime dramas of the moment are as follows.</p>
-    <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
+    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
   </div>
   </div>
   
@@ -21,7 +21,7 @@ include 'header.php';
     <div class="card-body">
     <h6 class="card-title">Yoghurt</h6>
     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-   <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
+   <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
   </div>
   </div>
       
@@ -30,7 +30,7 @@ include 'header.php';
     <div class="card-body">
     <h6 class="card-title">Lemon and Poppy Seed Cake</h6>
     <p class="card-text">. This card has even longer content than the first to show that equal height action.</p>
-    <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
+    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
   </div>
   </div>
   </div>  
@@ -48,7 +48,7 @@ include 'header.php';
     <div class="card-body">
     <h6 class="card-title">Dalgona Coffee</h5>
     <p class="card-text">New releases at Home</p>
-    <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
+    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
     </div>
   </div>
       
@@ -57,7 +57,7 @@ include 'header.php';
     <div class="card-body">
     <h6 class="card-title">Gin n Tonic</h5>
     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-    <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
+    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
     </div>
   </div>
       
@@ -66,7 +66,7 @@ include 'header.php';
     <div class="card-body">
     <h6 class="card-title">Sourdough</h6>
     <p class="card-text"> This card has even longer content than the first to show that equal height action.</p>
-    <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
+    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
    </div>
   </div>
       
