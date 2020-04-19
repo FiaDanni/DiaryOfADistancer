@@ -9,13 +9,53 @@
         <link href="diaryofad.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    
+    <style> 
+        nav {
+            text-align: center;
+            
+        }
+        
+        h2{
+            text-align:center;
+            font-size:90px;
+            font-family: 'Amatic Sc', cursive;
+            padding-top:40px;
+        }
+        
+       h1{
+            font-family: 'Amatic Sc', cursive;
+            font-weight:bold;
+            font-size: 60px;
+        }
+        
+        a{
+            color:black;
+            text-decoration: none;
+        }
+        
+        a:link {
+        text-decoration: none;
+        }
+        
+        a:hover{
+        font-weight: bold;
+        color:black;
+        }
+
+        
+        header{
+            padding-bottom: 30px;
+        }
+        </style>
+        
     </head>
     <body>
         
 
 <header>
             
-            <h1><a href="homepage.php">Diary of a Distancer.</a></h1>       
+            <h2><a href="homepage.php">Diary of a Distancer.</a></h2>       
             
             
             <nav>

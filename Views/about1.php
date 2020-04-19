@@ -39,10 +39,10 @@ include 'header.php';
 
 <div class="row">
     <div class="column1">
-      <img src="img/yoghurt.jpg" alt="Yoga" style="width:100%">
+      <img src="images/yoghurt.jpg" alt="Yoga" style="width:100%">
     </div>
     <div class="column2">
-      <img src="img/craft1.jpg" alt="Craft" style="width:100%">
+      <img src="images/craft1.jpg" alt="Craft" style="width:100%">
     </div>
   </div>
 
@@ -53,7 +53,7 @@ include 'header.php';
         Parents Magazine, The Dangton Post, Wow Magazine, and Family and Newborn..</p>
     </div>
     <div class="column4">
-      <img src="img/bath.jpg" alt="Wellness" style="width:100%";>
+      <img src="images/bath.jpg" alt="Wellness" style="width:100%";>
     </div>
   </div>
 

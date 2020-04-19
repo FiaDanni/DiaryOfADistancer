@@ -57,7 +57,7 @@ include 'header.php';
     <div class="card-body">
     <h6 class="card-title">Disney</h5>
     <p class="card-text">New releases at Home. Here are the best picks for the day. </p>
-    <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
+    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
     </div>
   </div>
       
@@ -66,7 +66,7 @@ include 'header.php';
     <div class="card-body">
     <h6 class="card-title">Podcasts</h5>
     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-    <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
+    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
     </div>
   </div>
       
@@ -75,7 +75,7 @@ include 'header.php';
     <div class="card-body">
     <h6 class="card-title">Audio Books</h6>
     <p class="card-text"> This card has even longer content than the first to show that equal height action.</p>
-    <a href="homepage.php" class="btn btn-primary stretched-link">Tell me more</a>
+    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
    </div>
   </div>
       
