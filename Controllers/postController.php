@@ -4,7 +4,9 @@ $postID = $_POST['PostID'];
 $action = $_POST['action'];
 
 if ($action == 'update') {
-    //require to update post model
+    session_start();
+    $_SESSION["PostID"] = $postID;
+    header('Location: http://localhost/diary/Views/updatePost.php');
 }
 
 if ($action == 'updatePost') {
