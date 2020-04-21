@@ -10,24 +10,22 @@ include 'header.php';
     <div class="carousel-item active">
       <img src="images/tiger.jpg" height="350px" width="60%" alt="Tiger">
       <div class="carousel-caption d-none d-md-block">
-      <h5>The Wonderfully Weird Tiger King</h5>
-      <p class="car">Carol Baskin or Joe Exotic, who's side are you on?</p>
+      <a href = "#"><h5 class="five">The Wonderfully Weird Tiger King</h5></a>
       </div>
       
     </div>
     <div class="carousel-item">
       <img src="images/trees.jpg" height="350px" width="60%"alt="Trees">
       <div class="carousel-caption d-none d-md-block">
-      <h5>Books to lift your mood</h5>
-      <p class="car">My top picks so far during isolation.</p>
+       <a href="#"><h5 class="five">Books to lift your mood</h5></a>
     </div>
     </div>
         
     <div class="carousel-item">
         <img src="images/bananas.jpg"height="350px" width="60%" alt="Bananas">
         <div class="carousel-caption d-none d-md-block">
-        <h5>Banana Bread</h5>
-        <p class="car">The new phenomenon,three ways.</p>
+            <a href="#"><h5 class="five">The Banana Bread Phenomenon</h5></a>
+       <!-- <p class="car">The new phenomenon,three ways.</p>-->
     </div>
     </div>
     </div>
@@ -55,8 +53,10 @@ include 'header.php';
       <div class="card">
     <img class="card-img-top" src="images/disney.jpg"  height="200"  alt="Card image cap">
     <div class="card-body">
-    <h6 class="card-title">Disney</h5>
+    <h6 class="card-title">Disney</h6>
     <p class="card-text">New releases at Home. Here are the best picks for the day. </p>
+    </div>
+    <div class="card-footer text-center"> 
     <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
     </div>
   </div>
@@ -64,8 +64,10 @@ include 'header.php';
       <div class="card">
     <img class="card-img-top" src="images/podcasts.jpg" height="200"  alt="Card image cap">
     <div class="card-body">
-    <h6 class="card-title">Podcasts</h5>
+    <h6 class="card-title">Podcasts</h6>
     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer text-center"> 
     <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
     </div>
   </div>
@@ -75,8 +77,10 @@ include 'header.php';
     <div class="card-body">
     <h6 class="card-title">Audio Books</h6>
     <p class="card-text"> This card has even longer content than the first to show that equal height action.</p>
-    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
    </div>
+    <div class="card-footer text-center"> 
+    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
+    </div>
   </div>
       
 </div>  

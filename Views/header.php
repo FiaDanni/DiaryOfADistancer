@@ -47,6 +47,21 @@
         header{
             padding-bottom: 30px;
         }
+        
+        .fa {
+        padding-top: 10px;
+        padding-right: 20px;
+        font-size: 20px;
+        width: 30px;
+        text-align: right;
+        text-decoration: none;
+        float:right;
+        }
+
+      .fa:hover {
+      opacity: 0.7;
+      }
+
         </style>
         
     </head>
@@ -54,8 +69,17 @@
         
 
 <header>
+    
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+      
             
             <h2><a href="homepage.php">Diary of a Distancer.</a></h2>       
+            
+            
+            
             
             
             <nav>
@@ -66,6 +90,7 @@
            <a href="mindandbody.php">Mind & Body &emsp;</a>
            <a href="foodanddrink.php">Food & Drink &emsp;</a>
            <a href="fitness.php">Fitness &emsp;</a>
+            <a href="updateordeletepost.php">Manage Blog Posts &emsp;</a>
            <a href="contact1.php">Contact</a>
      
            </nav>  
