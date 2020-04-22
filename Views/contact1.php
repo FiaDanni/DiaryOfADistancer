@@ -18,7 +18,7 @@ include 'header.php';
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+             <form id="contact-form" name="contact-form" action="" method="POST">
 
                 <!--Grid row-->
                 <div class="row">
@@ -71,6 +71,14 @@ include 'header.php';
                 <!--Grid row-->
 
             </form>
+           
+           <?php
+          if ($_POST) {
+            $name = $_POST['name'];
+            echo "<h5 class='h5-responsive font-weight-bold my-4'>Thank you $name for getting in touch!</h5>
+            <br/>";
+          }
+          ?>
 
             <div class="text-center text-md-center" style="color:white;">
                 <a class="btn btn-dark" onclick="document.getElementById('contact-form').submit();">Send</a>
