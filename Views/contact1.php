@@ -18,7 +18,7 @@ include 'header.php';
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
-             <form id="contact-form" name="contact-form" action="" method="POST">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
                 <!--Grid row-->
                 <div class="row">
@@ -71,21 +71,12 @@ include 'header.php';
                 <!--Grid row-->
 
             </form>
-           
-           <?php
-          if ($_POST) {
-            $name = $_POST['name'];
-            echo "<h5 class='h5-responsive font-weight-bold my-4'>Thank you $name for getting in touch!</h5>
-            <br/>";
-          }
-          ?>
 
-            <div class="text-center text-md-center" style="color:white;">
-                <a class="btn btn-dark" onclick="document.getElementById('contact-form').submit();">Send</a>
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
             </div>
             <div class="status"></div>
         </div>
-        <br>
         <!--Grid column-->
 
         <!--Grid column-->
@@ -96,82 +87,9 @@ include 'header.php';
 
 </section>
 <!--Section: Contact v.2-->
-
-<footer id="footer">
-    <!-- Bootstrap Footer -->
-<footer class="page-footer font-small blue pt-4">
-
-<!-- Footer Links -->
-<div class="container-fluid text-center text-md-left">
-
-  <!-- Grid row -->
-  <div class="row">
-
-    <!-- Grid column -->
-    <div class="col-md-6 mt-md-0 mt-3">
-
-      <!-- Content -->
-      <h5 class="text-uppercase">CONTENT DISCLAIMER</h5>
-      <p>All views and opinions expressed on the blog are solely mine.<br>
-       They do not express the views or opinions of my partnered organisations <br> 
-       and I accept no liability for information shared.
-
-      </p>
-
-    </div>
-    <!-- Grid column -->
-
-    <hr class="clearfix w-100 d-md-none pb-3">
-
-    <!-- Grid column -->
-    <div class="col-md-3 mb-md-0 mb-3">
-
-      <!-- Links -->
-      <h5 class="text-uppercase">USEFUL LINKS</h5>
-
-      <ul class="list-unstyled">
-        <li>
-          <a href="#!">ABOUT ME</a>
-        </li>
-        <li>
-          <a href="#!">FAQS</a>
-        </li>
-        <li>
-          <a href="#!">CONTACT ME</a>
-        </li>
-      </ul>
-
-    </div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
-    <div class="col-md-3 mb-md-0 mb-3">
-
-      <!-- Links -->
-      <h5 class="text-uppercase">USEFUL LINKS</h5>
-
-      <ul class="list-unstyled">
-        <li>
-          <a href="#!">BLOG</a>
-        </li>
-        <li>
-          <a href="#!">NEWSLETTER</a>
-        </li>
-        <li>
-          <a href="#!">BACK TO TOP</a>
-        </li>
-      </ul>
-
-    </div>
-    <!-- Grid column -->
-
-  </div>
-  <!-- Grid row -->
-
 </div>
-<!-- Footer Links -->
 
-</footer>
-</div>
-</body>
+<?php
+include 'footer.php';
+ ?>
 </html>
