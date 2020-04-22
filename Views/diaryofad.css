@@ -113,9 +113,21 @@
   }
 
  
+  .five {
+      font-size: 60px;
+      color:black;
+      font-weight:bold;
+      font-family: 'Amatic Sc', cursive;
+      text-shadow: 4px 4px 2px white;
+  }
  
- 
+  
 
-
-
+  .card-footer {
+      background-color: white;
+      border:none;
+  
+  }
+  
+  
 
