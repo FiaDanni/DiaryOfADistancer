@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     
     <style> 
-        nav {
+       nav {
             text-align: center;
             
         }
@@ -29,7 +29,7 @@
             font-size: 60px;
         }
         
-        a{
+      a{
             color:black;
             text-decoration: none;
         }
@@ -61,6 +61,10 @@
       .fa:hover {
       opacity: 0.7;
       }
+      
+
+
+
 
         </style>
         
@@ -82,7 +86,7 @@
             
             
             
-            <nav>
+           <nav>
        
            <a href="about1.php">About &emsp;</a>
            <a href="music.php">Music &emsp;</a>
@@ -90,11 +94,13 @@
            <a href="mindandbody.php">Mind & Body &emsp;</a>
            <a href="foodanddrink.php">Food & Drink &emsp;</a>
            <a href="fitness.php">Fitness &emsp;</a>
-            <a href="updateordeletepost.php">Manage Blog Posts &emsp;</a>
+           
+           <a href="updateordeletepost.php">Manage Blog Posts &emsp;</a>
            <a href="contact1.php">Contact</a>
      
-           </nav>  
+           </nav> 
     
+  
     
         </header>  
 
