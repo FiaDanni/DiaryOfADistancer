@@ -1,6 +1,6 @@
 <?php
 
-$postID = $_POST['PostID'];
+if (!empty($_POST['PostID'])) {$postID = $_POST['PostID'];}
 $action = $_POST['action'];
 
 if ($action == 'update') {
@@ -21,4 +21,6 @@ if ($action=='delete'){
     //require to delete post model
 }
 
-?>
+if ($action == 'create') {
+    require_once '../Model/create_blog_post.php';
+}
