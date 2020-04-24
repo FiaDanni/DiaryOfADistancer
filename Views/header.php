@@ -13,6 +13,8 @@
     <style> 
        nav {
             text-align: center;
+            padding-left: 180px;
+           
             
         }
         
@@ -62,7 +64,54 @@
       opacity: 0.7;
       }
       
+.dropdown {
+  float:right;
+  
+}
 
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding-left: 0px;
+ padding-right: 250px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  font-weight:bold;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color:black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
 
 
 
@@ -94,13 +143,34 @@
            <a href="mindandbody.php">Mind & Body &emsp;</a>
            <a href="foodanddrink.php">Food & Drink &emsp;</a>
            <a href="fitness.php">Fitness &emsp;</a>
-           
-           <a href="updateordeletepost.php">Manage Blog Posts &emsp;</a>
            <a href="contact1.php">Contact</a>
+           <div class="dropdown">
+           <button class="dropbtn" onclick="myFunction()">Manage Blog Posts
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="createblogpost.php">Create Blog Post</a>
+    <a href="updateordeletepost.php">Update Blog Post</a>
+    <a href="updateordeletepost.php">Delete Blog Post</a>
+          
      
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
            </nav> 
     
-  
+
+
     
         </header>  
 
