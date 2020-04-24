@@ -72,8 +72,8 @@ include 'header.php';
 
             </form>
 
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            <div class="text-center text-md-left" style='color:white;'>
+                <a class="btn btn-dark" onclick="document.getElementById('contact-form').submit();">Send</a>
             </div>
             <div class="status"></div>
         </div>
@@ -89,6 +89,8 @@ include 'header.php';
 <!--Section: Contact v.2-->
 </div>
 
+    <br>
+ 
 <?php
 include 'footer.php';
  ?>

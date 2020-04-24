@@ -57,11 +57,13 @@ include 'header.php';
     </div>
   </div>
   </div>
-</body>
-
-<?php
+    
+ <?php
 include 'footer.php';
  ?>
+</body>
+
+
 </html>
 
 
