@@ -40,7 +40,7 @@
       
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="about1.php">ABOUT</a>
+          <a href="about.php">ABOUT</a>
         </h6>
       </div>
       <!-- Grid column -->
@@ -48,7 +48,7 @@
       <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="contact1.php">CONTACT</a>
+          <a href="contact.php">CONTACT</a>
         </h6>
       </div>
       <!-- Grid column -->
