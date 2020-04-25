@@ -1,5 +1,9 @@
 <?php
+
 include 'header.php';
+require_once '../Model/dbconfig.php';
+require_once '../Model/all_blog_posts.php';
+
 ?>
          
            
@@ -8,21 +12,21 @@ include 'header.php';
     <div class="carousel-inner">
         
     <div class="carousel-item active">
-      <img src="images/tiger.jpg" height="350px" width="60%" alt="Tiger">
+        <img src="images/homepage/tiger.jpg" height="350px" width="60%" alt="Tiger">
       <div class="carousel-caption d-none d-md-block">
       <a href = "#"><h5 class="five">The Wonderfully Weird Tiger King</h5></a>
       </div>
       
     </div>
     <div class="carousel-item">
-      <img src="images/trees.jpg" height="350px" width="60%"alt="Trees">
+        <img src="images/homepage/trees.jpg" height="350px" width="60%"alt="Trees">
       <div class="carousel-caption d-none d-md-block">
        <a href="#"><h5 class="five">Books to lift your mood</h5></a>
     </div>
     </div>
         
     <div class="carousel-item">
-        <img src="images/bananas.jpg"height="350px" width="60%" alt="Bananas">
+        <img src="images/homepage/bananas.jpg"height="350px" width="60%" alt="Bananas">
         <div class="carousel-caption d-none d-md-block">
             <a href="#"><h5 class="five">The Banana Bread Phenomenon</h5></a>
        <!-- <p class="car">The new phenomenon,three ways.</p>-->
@@ -44,51 +48,31 @@ include 'header.php';
     </div>       
         
     <br>
-    <br>
         
           
-        
-   <div class="card-deck" style= "width:100%; padding-left: 10%; padding-right: 10%;">
-      
-      <div class="card">
-    <img class="card-img-top" src="images/disney.jpg"  height="200"  alt="Card image cap">
-    <div class="card-body">
-    <h6 class="card-title">Disney</h6>
-    <p class="card-text">New releases at Home. Here are the best picks for the day. </p>
-    </div>
-    <div class="card-footer text-center"> 
-    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
-    </div>
-  </div>
-      
-      <div class="card">
-    <img class="card-img-top" src="images/podcasts.jpg" height="200"  alt="Card image cap">
-    <div class="card-body">
-    <h6 class="card-title">Podcasts</h6>
-    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-    </div>
-    <div class="card-footer text-center"> 
-    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
-    </div>
-  </div>
-      
-  <div class="card">
-    <img class="card-img-top" src="images/audiobooks.png" height="200" alt="Card image cap">
-    <div class="card-body">
-    <h6 class="card-title">Audio Books</h6>
-    <p class="card-text"> This card has even longer content than the first to show that equal height action.</p>
-   </div>
-    <div class="card-footer text-center"> 
-    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
-    </div>
-  </div>
-      
-</div>  
-    <br>  
     <br>
+<div class="container-fluid">     
+ <div class="card-columns"  style="width:100%; padding-right: 10%; padding-left: 10%;">   
+     <?php foreach($posts as $post): ?>
+     
+      
+  <div class="card" > 
         
+      <img class="card-img-top" src="images/categoriesandhomepage/<?= $post->PostID; ?>.jpg" height="200"  alt="Card image cap">
+    <div class="card-body">
+    <h6 class="card-title" a href="hompeage.php class="btn btn-primary stretched-link"><?= $post->Title; ?></h6>
+    <!--<p class="card-text">My favourite crime dramas of the moment are as follows.</p>-->
+    <a href="blogpost.php?PostID=<?= $post->PostID; ?>" class="btn btn-dark stretched-link">Tell me more</a>
+    <br>
+    <p class="card-text"><small class="text-muted">Published: <?php $timestamp = date_create($post->DateTime); echo date_format($timestamp, "d-M-Y H:i:s");?></small></p>
+    </div>
+  </div>
+     <br>
+      <?php endforeach; ?> 
+  </div>
+</div>
+<br>
+ 
 <?php
 include 'footer.php';
  ?>
-    </body>
-</html>

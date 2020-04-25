@@ -7,7 +7,7 @@ include 'header.php';
 <div>
 
    <h1><?= $Title ?></h1>
-   <h3>Published: <?= $DateTime ?></h3>
+   <h3>Published: <?php $timestamp = date_create($DateTime); echo date_format($timestamp, "d-M-Y H:i:s");?></h3>
    <p><?= $Entry ?></hp>
 
 </div>

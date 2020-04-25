@@ -34,7 +34,7 @@ $Hashtag = $_POST['Hashtag'];
         die("Could not connect to the database $dbname :" . $pe->getMessage());
     }
     
-header("Location: http://localhost/diary/Views/blogpost.php?PostID=$PostID");
+header("Location: http://localhost/Final/Views/blogpost.php?PostID=$PostID");
 die();
 
     

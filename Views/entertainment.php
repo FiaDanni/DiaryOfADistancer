@@ -1,98 +1,36 @@
 <?php
 include 'header.php';
-   ?>
-  
-        
-  <div class="card-deck" style="width:100%; padding-right: 10%; padding-left: 10%;" >
+require_once '../Model/dbconfig.php';
+$entertainment = true;
+require_once '../Model/posts_by_categories.php';
+    ?>
+
+
+<br>
+<div class="container-fluid">     
+ <div class="card-columns"  style="width:100%; padding-right: 10%; padding-left: 10%;">   
+     <?php foreach($categories as $category): ?>
+     
       
   <div class="card" > 
         
-    <img class="card-img-top" src="images/nflix.png" height="200"  alt="Card image cap">
+      <img class="card-img-top" src="images/categoriesandhomepage/<?= $category->PostID; ?>.jpg" height="200"  alt="Card image cap">
     <div class="card-body">
-    <h6 class="card-title" a href="hompeage.php class="btn btn-primary stretched-link">Netflix Top 10</h6>
-    <p class="card-text">My favourite crime dramas of the moment are as follows.</p>
-  </div>
-    <div class="card-footer text-center"> 
-    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
+    <h6 class="card-title" a href="hompeage.php class="btn btn-primary stretched-link"><?= $category->Title; ?></h6>
+    <!--<p class="card-text">My favourite crime dramas of the moment are as follows.</p>-->
+    <a href="blogpost.php?PostID=<?= $category->PostID; ?>" class="btn btn-dark stretched-link">Tell me more</a>
+    <br>
+    <p class="card-text"><small class="text-muted">Published: <?php $timestamp = date_create($category->DateTime); echo date_format($timestamp, "d-M-Y H:i:s");?></small></p>
     </div>
   </div>
-  
-      
-  <div class="card">
-    <img class="card-img-top" src="images/prime.jpg" height="200" alt="Card image cap">
-    <div class="card-body">
-    <h6 class="card-title">Amazon Prime</h6>
-    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+     <br>
+      <?php endforeach; ?> 
   </div>
-    <div class="card-footer text-center"> 
-    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
-    </div>
-  </div>
-      
-  <div class="card">
-    <img class="card-img-top" src="images/sky.jpg" height="200"  alt="Card image cap">
-    <div class="card-body">
-    <h6 class="card-title">SKY</h6>
-    <p class="card-text">. This card has even longer content than the first to show that equal height action.</p>
-  </div>
-    <div class="card-footer text-center"> 
-    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
-    </div>
-  </div>
-  </div>  
-        
-        
-        <br>
-        <br>
-        
-        
-        
-  <div class="card-deck" style= "width:100%; padding-left: 10%; padding-right: 10%;">
-      
-      <div class="card">
-    <img class="card-img-top" src="images/disney.jpg"  height="200"  alt="Card image cap">
-    <div class="card-body">
-    <h6 class="card-title">Disney</h6>
-    <p class="card-text">New releases at Home</p>
-    </div>
-    <div class="card-footer text-center"> 
-    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
-    </div>
-  </div>
-      
-      <div class="card">
-    <img class="card-img-top" src="images/podcasts.jpg" height="200"  alt="Card image cap">
-    <div class="card-body">
-    <h6 class="card-title">Podcasts</h6>
-    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-    </div>
-    <div class="card-footer text-center"> 
-    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
-    </div>
-  </div>
-      
-  <div class="card">
-    <img class="card-img-top" src="images/audiobooks.png" height="200" alt="Card image cap">
-    <div class="card-body">
-    <h6 class="card-title">Audio Books</h6>
-    <p class="card-text"> This card has even longer content than the first to show that equal height action.</p>
-   </div>
-    <div class="card-footer text-center"> 
-    <a href="homepage.php" class="btn btn-dark stretched-link">Tell me more</a>
-    </div>
-  </div>
-      
-</div>  
-
-     
-        
- 
-  
- <br>
+</div>
+<br>
  
 <?php
 include 'footer.php';
  ?>
-    </body>
-</html>
+
 

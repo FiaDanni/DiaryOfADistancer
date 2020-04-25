@@ -137,13 +137,13 @@
             
            <nav>
        
-           <a href="about1.php">About &emsp;</a>
+           <a href="about.php">About &emsp;</a>
            <a href="music.php">Music &emsp;</a>
            <a href="entertainment.php">Entertainment &emsp;</a>
            <a href="mindandbody.php">Mind & Body &emsp;</a>
            <a href="foodanddrink.php">Food & Drink &emsp;</a>
            <a href="fitness.php">Fitness &emsp;</a>
-           <a href="contact1.php">Contact</a>
+           <a href="contact.php">Contact</a>
            <div class="dropdown">
            <button class="dropbtn" onclick="myFunction()">Manage Blog Posts
   </button>
