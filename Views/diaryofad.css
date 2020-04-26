@@ -11,7 +11,7 @@
 
 
 .section1 {
-  background-image: url(images/about/bg1.jpg);  
+  background-image: url(images/bg1.jpg);  
   height: 500px; 
   background-position:center; 
   background-repeat:no-repeat; 
@@ -157,5 +157,37 @@
   }
   
  
+  .blogp {
+      text-align: center;
+      font-family:'Amatic Sc', cursive;
+      font-size: 50px;  
+      text-decoration: underline;
+  }
+ 
+  .stamp{
+      text-align:center;
+      font-size: 15px;
+      color:#778899;
+  }
+  
+  .writing {
+      text-align:justify;
+      padding-left: 80px;
+      padding-right: 80px;
+  }
+  
+  .updateblog {
+      text-align: center;
+      font-family:'Amatic Sc', cursive;
+      font-size: 50px;  
+      border-top: solid black 8px;
+      padding-top: 20px;
+     
+      
+  }
+  
+  h5{
+      text-align: center;
+  }
   
  

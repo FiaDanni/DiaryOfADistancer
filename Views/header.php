@@ -13,9 +13,6 @@
     <style> 
        nav {
             text-align: center;
-            padding-left: 180px;
-           
-            
         }
         
         h2{
@@ -65,21 +62,22 @@
       }
       
 .dropdown {
-  float:right;
-  
+ position:absolute;
+ top:5px;
+ padding-left:0px;
 }
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 16px;  
+  font-size: 12px;  
   border: none;
   outline: none;
-  color: black;
-  padding-left: 0px;
- padding-right: 250px;
-  background-color: inherit;
+  color: white;
+  background-color: black;
   font-family: inherit;
-  margin: 0;
+  margin: 5px;
+  border:solid;
+  border-radius:20px;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
@@ -91,7 +89,7 @@
   display: none;
   position: absolute;
   color:black;
-  min-width: 160px;
+  min-width: 170px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -123,6 +121,10 @@
 
 <header>
     
+    
+ 
+    
+    
             <a href="https://www.facebook.com" class="fa fa-facebook"></a>
             <a href="https://www.twitter.com" class="fa fa-twitter"></a>
             <a href="https://www.instagram.com" class="fa fa-instagram"></a>
@@ -136,7 +138,6 @@
             
             
            <nav>
-       
            <a href="about.php">About &emsp;</a>
            <a href="music.php">Music &emsp;</a>
            <a href="entertainment.php">Entertainment &emsp;</a>
@@ -144,14 +145,17 @@
            <a href="foodanddrink.php">Food & Drink &emsp;</a>
            <a href="fitness.php">Fitness &emsp;</a>
            <a href="contact.php">Contact</a>
-           <div class="dropdown">
-           <button class="dropbtn" onclick="myFunction()">Manage Blog Posts
+           </nav> 
+    
+   <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Manage Blog Posts
   </button>
   <div class="dropdown-content" id="myDropdown">
     <a href="createblogpost.php">Create Blog Post</a>
     <a href="updateordeletepost.php">Update Blog Post</a>
     <a href="updateordeletepost.php">Delete Blog Post</a>
-          
+    
+            
      
 <script>
 function myFunction() {
@@ -167,9 +171,6 @@ window.onclick = function(e) {
   }
 }
 </script>
-           </nav> 
-    
-
 
     
         </header>  
