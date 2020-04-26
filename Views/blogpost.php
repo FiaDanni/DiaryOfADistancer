@@ -3,13 +3,22 @@ $PostID = $_GET['PostID'];
 require_once '../Model/show_individual_post.php';
 include 'header.php';
 ?>
+<br>
 
 <div>
+   <h1 class="blogp"><?= $Title ?></h1>
 
-   <h1><?= $Title ?></h1>
-   <h3>Published: <?php $timestamp = date_create($DateTime); echo date_format($timestamp, "d-M-Y H:i:s");?></h3>
-   <p><?= $Entry ?></hp>
+   <br>
+   
 
+   <p class="writing"><?= $Entry ?></p>
+   <br>
+   
+ <h3 class="stamp">Published: <?= $DateTime ?></h3>
+ 
+
+
+<br>
 </div>
 
 <?php

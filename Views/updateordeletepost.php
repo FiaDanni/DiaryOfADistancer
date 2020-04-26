@@ -5,12 +5,13 @@ include 'header.php';
 ?>
 
 <body>
+    <br>
     <div>
-        <h3>Update or Delete Blog Post</h3>
+        <h3 class="updateblog">Update or Delete Blog Post</h3>
     </div>
-
+    <br>
     <form action="../Controllers/postController.php" method="post">
-        <div class="form-group" style='margin-top: 1%; margin-left: 5%;margin-right: 5%'>
+        <div class="form-group" style='margin-top: 1%; margin-left: 25%;margin-right: 25%'>
             <h5 for="selectexistingblog">Select Existing Blog</h5>
             <select class="form-control" id="blogcategoryselected" size="8" name="PostID">
                 <?php
