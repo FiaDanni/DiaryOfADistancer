@@ -73,9 +73,28 @@ include 'header.php';
                     </form>
                     <?php
                     if ($_POST) {
-                        $name = $_POST['name'];
-                        echo "<h5 class='h5-responsive font-weight-bold my-4'>Thank you $name for getting in touch!</h5>
-            <br/>";
+                        if (empty($_POST["name"])) {
+                            echo "<h6 style='color:red;'>*Name is required</h6>";
+                        }
+                        if (empty($_POST["email"])) {
+                            echo "<h6 style='color:red;'>*Email is required</h6>";
+                        }
+                        if (empty($_POST["subject"])) {
+                            echo "<h6 style='color:red;'>*Subject is required</h6>";
+                        }
+                        if (empty($_POST["message"])) {
+                            echo "<h6 style='color:red;'>*message is required</h6>";
+                        }
+                        if (
+                            !empty($_POST["name"]) &&
+                            !empty($_POST["email"]) &&
+                            !empty($_POST["subject"]) &&
+                            !empty($_POST["message"])
+                        ) {
+                            $name = $_POST['name'];
+                            echo "<h5 class='h5-responsive font-weight-bold my-4'>Thank you $name for getting in touch!</h5>
+                                 <br/>";
+                        }
                     }
                     ?>
 
