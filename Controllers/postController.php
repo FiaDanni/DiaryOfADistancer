@@ -8,7 +8,7 @@ $action = $_POST['action'];
 if ($action == 'update') {
     session_start();
     $_SESSION["PostID"] = $postID;
-    header('Location: http://localhost/Final/Views/updatePost.php');
+    header('Location: http://localhost/FinalFinal/Views/updatePost.php');
 }
 
 if ($action == 'updatePost') {

@@ -24,8 +24,8 @@ include 'header.php';
         <option value='#Music'>Music</option>
         <option value='#Entertainment'>Entertainment</option>
         <option value='#MindandBody'>Mind and Body</option>
-        <option value='FoodandDrink'>Food and Drink</option>
-        <option value='Fitness'>Fitness</option>
+        <option value='#FoodandDrink'>Food and Drink</option>
+        <option value='#Fitness'>Fitness</option>
       </select>
     </div>
     <div class="form-group" style='margin-left: 25%; margin-right:25%'>
