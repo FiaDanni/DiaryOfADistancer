@@ -4,8 +4,9 @@ require_once '../Model/dbconfig.php';
 $mindandbody = true;
 require_once '../Model/posts_by_categories.php';
     ?>
-
-
+<div class="container" id="subtitle">
+    <h1>Mind & Body</h1>
+</div>
 <br>
 <div class="container-fluid">     
  <div class="card-columns"  style="width:100%; padding-right: 10%; padding-left: 10%;">   

@@ -146,7 +146,8 @@
            <a href="fitness.php">Fitness &emsp;</a>
            <a href="contact.php">Contact</a>
            </nav> 
-    
+            <br>
+    <div id="container"></div>
    <div class="dropdown">
   <button class="dropbtn" onclick="myFunction()">Manage Blog Posts
   </button>

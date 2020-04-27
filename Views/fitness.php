@@ -4,10 +4,11 @@ require_once '../Model/dbconfig.php';
 $fitness = true;
 require_once '../Model/posts_by_categories.php';
     ?>
-
-
+<div class="container" id="subtitle">
+    <h1>Fitness</h1>
+</div>
 <br>
-<div class="container-fluid">     
+<div class="container-fluid" id="contactainer">     
  <div class="card-columns"  style="width:100%; padding-right: 10%; padding-left: 10%;">   
      <?php foreach($categories as $category): ?>
      

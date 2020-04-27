@@ -5,28 +5,30 @@ require_once '../Model/dbconfig.php';
 require_once '../Model/all_blog_posts.php';
 
 ?>
-         
-          
+         <div class="container" id="subtitle">
+        <h1>Welcome to Our Blog</h1>
+         </div>
+<br>
     <div class="cont" align="center">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         
     <div class="carousel-item active">
-        <img src="images/homepage/tiger.jpg" height="350px" width="60%" alt="Tiger">
+        <img src="images/categoriesandhomepage/31.jpg" height="350px" width="60%" alt="Tiger">
       <div class="carousel-caption d-none d-md-block">
      <a href = "blogpost.php?PostID=31"><h5 class="five">The Wonderfully Weird Tiger King</h5></a>
       </div>
       
     </div>
     <div class="carousel-item">
-        <img src="images/homepage/trees.jpg" height="350px" width="60%"alt="Trees">
+        <img src="images/categoriesandhomepage/32.jpg" height="350px" width="60%"alt="Trees">
       <div class="carousel-caption d-none d-md-block">
        <a href="blogpost.php?PostID=32"><h5 class="five">Books to lift your mood</h5></a>
     </div>
     </div>
         
     <div class="carousel-item">
-        <img src="images/homepage/bananas.jpg"height="350px" width="60%" alt="Bananas">
+        <img src="images/categoriesandhomepage/33.jpg"height="350px" width="60%" alt="Bananas">
         <div class="carousel-caption d-none d-md-block">
             <a href="blogpost.php?PostID=33"><h5 class="five">The Banana Bread Phenomenon</h5></a>
        <!-- <p class="car">The new phenomenon,three ways.</p>-->

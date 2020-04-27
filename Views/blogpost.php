@@ -5,21 +5,25 @@ include 'header.php';
 ?>
 <br>
 
-<div>
+<div class="container">
    <h1 class="blogp"><?= $Title ?></h1>
-
+   
    <br>
    
-
-   <p class="writing"><?= $Entry ?></p>
-   <br>
+   <h3 class="stamp">Published: <?php $timestamp = date_create($DateTime); echo date_format($timestamp, "d-M-Y H:i:s");?></h3>
    
- <h3 class="stamp">Published: <?= $DateTime ?></h3>
- 
-
-
-<br>
 </div>
+<br>
+
+<div class="container" style=" text-align: center">
+  <img src="images/categoriesandhomepage/<?= $PostID ?>.jpg" alt="image of post"  width="500"> 
+</div>
+<br>
+
+<div class="container">
+      <p class="writing"><?= $Entry ?></p>
+</div>
+<br>
 
 <?php
 include 'footer.php';

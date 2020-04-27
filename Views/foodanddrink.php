@@ -4,8 +4,9 @@ require_once '../Model/dbconfig.php';
 $foodanddrink = true;
 require_once '../Model/posts_by_categories.php';
     ?>
-
-
+<div class="container" id="subtitle">
+    <h1>Food & Drink</h1>
+</div>
 <br>
 <div class="container-fluid">     
  <div class="card-columns"  style="width:100%; padding-right: 10%; padding-left: 10%;">   
