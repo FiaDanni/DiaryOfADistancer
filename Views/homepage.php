@@ -6,7 +6,7 @@ require_once '../Model/all_blog_posts.php';
 
 ?>
          
-           
+          
     <div class="cont" align="center">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -14,21 +14,21 @@ require_once '../Model/all_blog_posts.php';
     <div class="carousel-item active">
         <img src="images/homepage/tiger.jpg" height="350px" width="60%" alt="Tiger">
       <div class="carousel-caption d-none d-md-block">
-      <a href = "#"><h5 class="five">The Wonderfully Weird Tiger King</h5></a>
+     <a href = "blogpost.php?PostID=31"><h5 class="five">The Wonderfully Weird Tiger King</h5></a>
       </div>
       
     </div>
     <div class="carousel-item">
         <img src="images/homepage/trees.jpg" height="350px" width="60%"alt="Trees">
       <div class="carousel-caption d-none d-md-block">
-       <a href="#"><h5 class="five">Books to lift your mood</h5></a>
+       <a href="blogpost.php?PostID=32"><h5 class="five">Books to lift your mood</h5></a>
     </div>
     </div>
         
     <div class="carousel-item">
         <img src="images/homepage/bananas.jpg"height="350px" width="60%" alt="Bananas">
         <div class="carousel-caption d-none d-md-block">
-            <a href="#"><h5 class="five">The Banana Bread Phenomenon</h5></a>
+            <a href="blogpost.php?PostID=33"><h5 class="five">The Banana Bread Phenomenon</h5></a>
        <!-- <p class="car">The new phenomenon,three ways.</p>-->
     </div>
     </div>
@@ -44,7 +44,7 @@ require_once '../Model/all_blog_posts.php';
     <span class="sr-only">Next</span>
     </a>
     </div>
-        
+      
     </div>       
         
     <br>
@@ -60,7 +60,7 @@ require_once '../Model/all_blog_posts.php';
         
       <img class="card-img-top" src="images/categoriesandhomepage/<?= $post->PostID; ?>.jpg" height="200"  alt="Card image cap">
     <div class="card-body">
-    <h6 class="card-title" a href="hompeage.php class="btn btn-primary stretched-link"><?= $post->Title; ?></h6>
+        <h6 class="card-title" class="btn btn-primary stretched-link"> <?= $post->Title; ?></h6>
     <!--<p class="card-text">My favourite crime dramas of the moment are as follows.</p>-->
     <a href="blogpost.php?PostID=<?= $post->PostID; ?>" class="btn btn-dark stretched-link">Tell me more</a>
     <br>
