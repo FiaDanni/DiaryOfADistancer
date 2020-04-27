@@ -29,5 +29,5 @@ require_once 'dbconfig.php';
         die("Could not connect to the database $dbname :" . $pe->getMessage());
     }
     
-        header( 'Location: http://localhost/Final/Views/blogpostdeleted.php') ;
+        header ('Location: http://localhost/Final/Views/blogpostdeleted.php') ;
 

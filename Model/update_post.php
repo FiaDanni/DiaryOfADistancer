@@ -29,4 +29,5 @@ require_once 'dbconfig.php';
         die("Could not connect to the database $dbname :" . $pe->getMessage());
     }
 
-
+header("Location: http://localhost/Final/Views/blogpost.php?PostID=$PostID");
+die();

@@ -13,14 +13,14 @@ if ($action == 'update') {
 
 if ($action == 'updatePost') {
     require '../Model/update_post.php';
-    echo 'post updated';
+    header("Location: http://localhost/Final/Views/blogpost.php?PostID=$PostID");
+
 }
 
 
-if ($action == 'delete') {
+if ($action=='delete'){
     require_once '../Model/delete_post.php';
-
-    //require to delete post model
+    header('Location: http://localhost/Final/Views/blogpostdeleted.php');
 }
 
 if ($action == 'create') {
