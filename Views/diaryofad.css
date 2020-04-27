@@ -9,6 +9,13 @@
   
 }
 
+ #subtitle {
+      text-align: center;
+      font-family:'Amatic Sc', cursive;
+      font-size: 50px;  
+      
+  }
+
 
 .section1 {
   background-image: url(images/about/bg1.jpg);  

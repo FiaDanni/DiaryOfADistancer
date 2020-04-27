@@ -2,9 +2,7 @@
 include 'header.php';
 ?>
 
-<body>
-
-    <div id="container">
+    <!--<div id="container">-->
         <!--Section: Contact v.2-->
         <section class="mb-4">
 
