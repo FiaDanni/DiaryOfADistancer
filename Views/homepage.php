@@ -63,7 +63,6 @@ require_once '../Model/all_blog_posts.php';
       <img class="card-img-top" src="images/categoriesandhomepage/<?= $post->PostID; ?>.jpg" height="200"  alt="Card image cap">
     <div class="card-body">
         <h6 class="card-title" class="btn btn-primary stretched-link"> <?= $post->Title; ?></h6>
-    <!--<p class="card-text">My favourite crime dramas of the moment are as follows.</p>-->
     <a href="blogpost.php?PostID=<?= $post->PostID; ?>" class="btn btn-dark stretched-link">Tell me more</a>
     <br>
     <p class="card-text"><small class="text-muted">Published: <?php $timestamp = date_create($post->DateTime); echo date_format($timestamp, "d-M-Y H:i:s");?></small></p>

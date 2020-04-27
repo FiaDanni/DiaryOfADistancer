@@ -4,7 +4,6 @@
 include 'header.php';
 ?>
 
-<body>
     <br>
     <div>
         <h3 class="updateblog">Update or Delete Blog Post</h3>
@@ -47,7 +46,3 @@ include 'header.php';
 include 'footer.php';
  ?>
     
-</body>
-
-
-</html>
