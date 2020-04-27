@@ -8,7 +8,7 @@ require_once '../Model/posts_by_categories.php';
     <h1>Fitness</h1>
 </div>
 <br>
-<div class="container-fluid" id="contactainer">     
+<div class="container-fluid">     
  <div class="card-columns"  style="width:100%; padding-right: 10%; padding-left: 10%;">   
      <?php foreach($categories as $category): ?>
      
