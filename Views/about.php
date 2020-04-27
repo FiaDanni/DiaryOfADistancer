@@ -1,22 +1,26 @@
+
+
 <?php
 include 'header.php';
    ?>
-<div clas="container-fluid">
+
+<!--<div id="container"></div>-->
+
+
 <div class="section1">
+
     <div class="sec1box">
-            <h1>ABOUT US</h1> 
-            <br>
-            <b>Hi there, we're the SuperGlobals :)</b>
-            <br>
-            <br>
-            <b>Welcome to Diary of a Distancer!</b>
-            <br>
+        <p>
+            <h1>ABOUT US</h1> <br>
+            <b>Hi there, we're the SuperGlobals</b><br>
             <br>
             We are Zara, Afua, Tomi, Maura and Ciara, 5 aspiring Software Engineers on the eve of finishing our Get into Tech course with Sky :(.
             We've had a somewhat interesting (and unexpected) learning experience due to the outbreak of Covid 19,
             but we never let the distance between us stop us in achieving our end goal ! So for our final project we decided to dedicate our blog to this slightly strange time we're all experiencing.<br>
             <br>
-
+            <b>Welcome to Diary of a Distancer!</b>
+        </p>
+            <!-- <button class="ctamore" href="#">LEARN MORE</button> -->
     </div>
 </div>
 
@@ -37,7 +41,7 @@ include 'header.php';
         <img src="images/about/yoghurt.jpg" alt="Yoga" style="width:100%">
     </div>
     <div class="column2">
-        <img src="images/about/needlework.jpg" alt="Craft" style="width:100%">
+        <img src="images/about/needlework.jpg.jpg" alt="Craft" style="width:100%">
     </div>
   </div>
 
@@ -50,7 +54,6 @@ include 'header.php';
     </div>
   </div>
 <br>
-</div>
     <?php
 include 'footer.php';
    ?>
