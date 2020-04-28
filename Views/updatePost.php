@@ -12,9 +12,9 @@
     </head>
     <?php include 'header.php';?>
     <body>
-        <h1>Update</h1>
+        <h1 align="center">Update</h1>
         
-        <form action="../Controllers/postController.php" method="post">
+        <form action="../Controllers/postController.php" method="post" style='margin-left: 5%; margin-right: 5%'>
             <?php
              require_once '../Model/dbconfig.php';
              $PostID = $_SESSION["PostID"];
@@ -67,9 +67,12 @@
             </div>
             
             
-             <button type="submit" class="btn btn-primary" name="action" value="updatePost">Update</button>
+             <div align='center'>
+            <button style='margin-bottom: 20px' type="submit" class="btn btn-dark btn-lg"  name="action" value="updatePost">Update</button>
+            </div>
 
        </form>
         
     </body>
 </html>
+
